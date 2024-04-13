@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header{
+    padding:0px 80px ;
+    gap: 20px;
+    list-style-type:none;
+    text-decoration: none;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+    text-decoration: none;
+    cursor: pointer;
+}
+ul li a{
+    list-style-type:none;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+
+}
+ul li a:hover{
+color: rgb(209, 78, 78);
+}
+
+
+
+header button{
+    padding: 10px 20px;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 8px;
+    border: 1.5px solid red;
+    color: red;
+}
+.con{
+    background-image:url('./image\ 4.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+.con button{
+    background-color: brown;
+    border:none ;
+    padding: 12px 23px;
+    margin-top: 160px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    
+}
+.box{
+    width: 400px;
+    margin: 90px 100px;
+    color: #fff;
+    font-weight: 350px;
+    font-size: 25px;
+}
+.box1{
+position: absolute;
+right: 200px;
+bottom: -4px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+.bok2 p{
+    margin-right: 70px;
+    font-size: 20px;
+}
+.bok2 h3{
+    margin-left: 0px;
+    font-size: 25px;
+
+}
+.cont2:hover{
+    border: 3px solid rgb(78, 109, 211);
+    border-radius: 30px;
+    background-color: #e4e4e4;
+    transform:scale(180deg)
+}
+.cont2{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.cont1:hover{
+    border: 3px solid rgb(78, 109, 211);
+    border-radius: 30px;
+    background-color: #e4e4e4;
+    transform:scale(180deg)
+}
+.cont1{
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.bok1 p{
+    margin-left: 70px;
+    font-size: 20px;
+}
+.bok1 h3{
+    margin-left: 70px;
+    font-size: 25px;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: hsla(184, 86%, 41%, 1);
+    margin: 105px 0px;
+    position: relative;
+    height: 750px;
+    flex-wrap: wrap;
+}
+.box3{
+    position: relative;
+    top: -30px;
+}
+.box4{
+    position: relative;
+    top: -30px;
+}
+.box5{
+    position: relative;
+    top: -30px;
+}
+.ok{
+    padding:0px 80px ;
+    gap: 20px;
+    list-style-type:none;
+    background-color: rgb(58, 58, 58);
+    text-decoration: none;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: ;
+}
